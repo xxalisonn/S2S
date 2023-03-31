@@ -4,8 +4,8 @@ import argparse
 from datetime import datetime
 import warnings
 import torch
-# import pytorch_lightning as pl
-import lightning.pytorch as pl
+import pytorch_lightning as pl
+# import lightning.pytorch as pl
 from pytorch_lightning.callbacks import ModelCheckpoint
 from transformers import T5Tokenizer
 from transformers import T5Config
